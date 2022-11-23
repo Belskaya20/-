@@ -1,0 +1,50 @@
+ .banner {
+     padding: 340px 0px 40px;
+     &__name {
+         margin: 0 auto;
+         font-size: $title-font;
+         max-width: 1070px;
+     }
+     &__text {
+         margin: 50px 0px;
+         font-size: $h5-font;
+     }
+     &__arrow {
+         content: '';
+         background-image: url(../icons/arrow.png);
+         width: 57px;
+         height: 22px;
+         display: block;
+         margin: 279px auto 0px;
+     }
+ }
+ 
+ @media screen and (max-width: 1024px) {
+     .banner {
+         padding-top: 256px;
+         &__name {
+             margin: 0 auto;
+             font-size: 2.83rem;
+             max-width: 598px;
+         }
+         &__text {
+             margin: 45px auto 70px;
+             font-size: $description-font;
+         }
+         &__arrow {
+             margin: 273px auto 0px;
+         }
+     }
+ }
+ 
+ @media screen and (max-width: 768px) {
+     .banner {
+         padding-top: 90px;
+         &__text {
+             margin: 22px auto 84px;
+         }
+         &__arrow {
+             margin: 76px auto 0px;
+         }
+     }
+ }

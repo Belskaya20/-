@@ -1,0 +1,33 @@
+    .work-chain-icon--sketch {
+        @include interior-work-styles(url(../icons/scetch.png));
+    }
+    
+    .work-chain-icon--sketch::after {
+        @include chain-after;
+    }
+    
+    .work-chain-icon--project {
+        @include interior-work-styles(url(../icons/project.png));
+    }
+    
+    .work-chain-icon--project::after {
+        @include chain-after;
+    }
+    
+    .work-chain-icon--document {
+        @include interior-work-styles(url(../icons/document.png));
+    }
+    
+    .work-chain-icon--document::after {
+        @include chain-after;
+    }
+    
+    .work-chain-icon--vision {
+        @include interior-work-styles(url(../icons/vision.png));
+    }
+    
+    .work-chain-icon {
+        display: flex;
+        align-items: center;
+        margin: 0 auto 52px;
+    }

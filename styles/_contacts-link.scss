@@ -1,0 +1,41 @@
+.contacts-link {
+    list-style-type: none;
+    line-height: 33px;
+    &__element a {
+        color: $second-color;
+        text-decoration: none;
+    }
+    &__element {
+        &:not(:last-child) {
+            margin-bottom: 6px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts-link {
+        line-height: 30px;
+        &__element a {
+            font-size: $h5-font;
+        }
+        &__element {
+            &:not(:last-child) {
+                margin-bottom: 9px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts-link {
+        line-height: 27px;
+        &__element a {
+            font-size: $description-font;
+        }
+        &__element {
+            &:not(:last-child) {
+                margin-bottom: 12px;
+            }
+        }
+    }
+}

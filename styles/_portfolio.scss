@@ -1,0 +1,28 @@
+.portfolio {
+    padding: 100px 0;
+    &__text {
+        color: $text-color;
+        margin: 30px auto 60px;
+        max-width: 471px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio {
+        padding: 80px 0;
+        &__text {
+            font-size: $h5-font;
+            margin-top: 40px;
+            max-width: 431px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio {
+        padding: 70px 0;
+        &__text {
+            margin: 35px auto 55px;
+        }
+    }
+}

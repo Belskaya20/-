@@ -1,0 +1,59 @@
+.tariff-list-column {
+    &__name {
+        font-size: $h5-font;
+        color: $text-color;
+        margin: 0 auto 25px;
+    }
+    &__price {
+        font-size: $h2-font;
+        font-weight: 700;
+        font-family: $price-family;
+    }
+    &__text {
+        &:first-of-type {
+            margin-top: 30px;
+        }
+        font-size: $button-font;
+        line-height: 22px;
+        color: $text-color;
+        &:not(:last-of-type) {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.tariff-list-column__name--discont {
+    margin-top: 61px;
+}
+
+.tariff-list-column__name--base {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .tariff-list-column {
+        &__name {
+            font-size: $description-font;
+            margin-bottom: 30px;
+        }
+        &__price {
+            font-size: 1.58rem;
+        }
+        &__text {
+            font-size: 0.58rem;
+            line-height: 19px;
+        }
+    }
+    .tariff-list-column__name--discont {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tariff-list-column {
+        &__name {
+            font-size: $description-font;
+            margin: 40px auto 30px;
+        }
+    }
+}

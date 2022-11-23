@@ -1,0 +1,34 @@
+.services-sphere-list {
+    max-width: 335px;
+    width: calc((100% - 90px*2)/3);
+    text-align: center;
+    position: relative;
+    &:not(:last-of-type) {
+        margin-right: 90px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .services-sphere-list {
+        max-width: 255px;
+        width: calc((100% - 95px*2)/3);
+        text-align: center;
+        position: relative;
+        &:not(:last-of-type) {
+            margin-right: 95px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services-sphere-list {
+        max-width: 580px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        &:not(:last-of-type) {
+            margin-right: 0;
+            margin-bottom: 50px;
+        }
+    }
+}

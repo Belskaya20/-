@@ -1,0 +1,12 @@
+.services-sphere {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .services-sphere {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+}

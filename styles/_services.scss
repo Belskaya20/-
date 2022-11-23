@@ -1,0 +1,28 @@
+        .services {
+            padding: 100px 0;
+            &__text {
+                font-size: $base-font;
+                max-width: 580px;
+                margin: 30px auto 60px;
+            }
+        }
+        
+        @media screen and (max-width: 1024px) {
+            .services {
+                padding: 80px 0;
+                &__text {
+                    font-size: $h5-font;
+                    margin-top: 40px;
+                }
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .services {
+                padding: 70px 0;
+                &__text {
+                    font-size: $h5-font;
+                    margin: 35px auto 55px;
+                }
+            }
+        }

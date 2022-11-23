@@ -1,0 +1,39 @@
+.services-sphere-column {
+    &__name {
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: $text-color;
+        margin-top: 40px;
+    }
+    &__text {
+        font-size: 0.582rem;
+        line-height: 19px;
+        color: $text-color;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .services-sphere-column {
+        &__name {
+            font-size: 0.67rem;
+            margin-top: 30px;
+        }
+        &__text {
+            font-size: 0.5rem;
+            line-height: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services-sphere-column {
+        &__name {
+            margin-top: 25px;
+        }
+        &__text {
+            font-size: 0.5rem;
+            margin-top: 25px;
+        }
+    }
+}

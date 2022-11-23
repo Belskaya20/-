@@ -1,0 +1,31 @@
+    .contacts {
+        padding: 100px 370px 100px 372px;
+        background: #434343;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    @media screen and (max-width: 1440px) {
+        .contacts {
+            padding: 100px 130px 100px 132px;
+        }
+    }
+
+    @media screen and (min-width: 1441px) {
+        .contacts {
+            padding: 100px 120px 100px 140px;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .contacts {
+            padding: 80px 42px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .contacts {
+            padding: 70px 21px 70px 24px;
+        }
+    }

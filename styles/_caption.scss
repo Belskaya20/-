@@ -1,0 +1,10 @@
+.caption {
+    font-size: $h2-font;
+    color: $text-color;
+}
+
+@media screen and (max-width: 1024px) {
+    .caption {
+        font-size: 1.58rem;
+    }
+}

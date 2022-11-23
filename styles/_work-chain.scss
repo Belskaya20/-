@@ -1,0 +1,20 @@
+    .work-chain {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: 824px;
+        margin: 75px auto 0;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .work-chain {
+            max-width: 686px;
+            margin: 47px auto 0;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .work-chain {
+            margin: 42px auto 0;
+        }
+    }

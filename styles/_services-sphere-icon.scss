@@ -1,0 +1,15 @@
+.services-sphere-icon--interiorflat {
+    @include interior-work-styles(url(../icons/interior-flat.png));
+}
+
+.services-sphere-icon--interiorhouse {
+    @include interior-work-styles(url(../icons/interior-house.png));
+}
+
+.services-sphere-icon--supervision {
+    @include interior-work-styles(url(../icons/supervision.png));
+}
+
+.services-sphere-icon {
+    margin: 0 auto;
+}

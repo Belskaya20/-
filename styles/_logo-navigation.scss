@@ -1,0 +1,24 @@
+.logo-navigation {
+    display: flex;
+    padding: 23px 369px 23px 371px;
+    justify-content: space-between;
+    background-color: rgba(130, 130, 130, 0.6);
+}
+
+@media screen and (max-width: 1440px) {
+    .logo-navigation {
+        padding: 23px 129px 23px 131px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo-navigation {
+        padding: 20px 42px 20px 41px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-navigation {
+        padding: 15px 24px;
+    }
+}
